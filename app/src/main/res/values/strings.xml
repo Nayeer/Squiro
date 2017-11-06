@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Squiro</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
