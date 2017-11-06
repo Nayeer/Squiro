@@ -12,6 +12,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
@@ -244,6 +245,7 @@ public class GameOverActivity extends AppCompatActivity {
     protected void onUserLeaveHint() //lorsque l'on quitte l'écran par le bouton home ou autre
     {
         if (notHandledAction) { //si aucune de nos fonctions n'a précédemment été choisie par l'utilisateur
+            Log.d("onuser","bob");
             super.onUserLeaveHint();
             //On simule l'appui sur le bouton replay pour un relançage automatique du jeu lors du retour
             onReplayButton(null);

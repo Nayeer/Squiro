@@ -154,7 +154,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_175sdp"
         android:layout_marginTop="@dimen/_200sdp"
-        android:text="999"
+        android:text="-1"
         android:textColor="#302d23"
         android:textSize="@dimen/_19ssp"
         android:textStyle="bold"
